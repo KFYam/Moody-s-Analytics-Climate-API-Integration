@@ -1,0 +1,7 @@
+{
+    "auth": {
+        "clientId": "XXXXXXXX",
+        "clientSecret": "YYYYYYYYYYYYY",
+        "URL": "https://sso.moodysanalytics.com/sso-api/v1/token"
+    }
+}
