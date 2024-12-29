@@ -11,7 +11,21 @@ This repository provides a Python-based solution to interact with Moody's Analyt
 - **Portfolio Analysis**: Calculates portfolio-level PD metrics.
 
 ## Repository Structure
-project_root/ ├── 01_program/ # Main program folder │ ├── main.py # Entry point for the application │ ├── modules/ # Custom modules │ ├── file_handlers.py │ ├── moodys_climate_api.py │ ├── ownfirm_data_formatters.py │ ├── ownfirm_models.py │ ├── ownfirm_to_moodys_connectors.py ├── 02_in_tray/ # Folder for input files ├── 03_out_tray/ # Folder for generated output ├── template/ # Input template files │ └── Input Template.xlsx ├── config.json # Configuration file for API credentials ├── requirements.txt # Python dependencies └── README.md # Project documentation
+project_root/
+├── 01_program/                            # Main program folder 
+│   ├── main.py                            # Entry point for the application 
+│   ├── modules/                           # Custom modules 
+│   ├── file_handlers.py 
+│   ├── moodys_climate_api.py 
+│   ├── ownfirm_data_formatters.py 
+│   ├── ownfirm_models.py 
+│   ├── ownfirm_to_moodys_connectors.py 
+├── 02_in_tray/                            # Folder for input files 
+│   ├── template/                          # Input template files 
+│   └── Input Template.xlsx 
+├── 03_out_tray/                           # Folder for generated output 
+├── config.json                            # Configuration file for API credentials 
+└── README.md # Project documentation
 
 ## Getting Started
 
@@ -26,17 +40,16 @@ project_root/ ├── 01_program/ # Main program folder │ ├── main.py 
    cd your-repository
 
 2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. Configure the API credentials:
 Update the config.json file with your Moody's API credentials.
-```json
-{
-    "auth": {
-        "clientId": "your_client_id",
-        "clientSecret": "your_client_secret",
-        "URL": "https://sso.moodysanalytics.com/sso-api/v1/token"
-    }
-}
+   ```json
+   {
+       "auth": {
+           "clientId": "your_client_id",
+           "clientSecret": "your_client_secret",
+           "URL": "https://sso.moodysanalytics.com/sso-api/v1/token"
+       }
+   }
