@@ -11,7 +11,7 @@ This repository provides a Python-based solution to interact with Moody's Analyt
 - **Portfolio Analysis**: Calculates portfolio-level PD metrics.
 
 ## Repository Structure
-project_root/
+```project_root/
 ├── 01_program/                            # Main program folder 
 │   ├── main.py                            # Entry point for the application 
 │   ├── modules/                           # Custom modules 
