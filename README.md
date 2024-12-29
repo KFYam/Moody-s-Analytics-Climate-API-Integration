@@ -44,14 +44,14 @@ Update the config.json file with your Moody's API credentials.
    ├── 01_program/                            # Main program folder 
    │   ├── main.py                            # Entry point for the application 
    │   ├── modules/                           # Custom modules 
-   │   ├── file_handlers.py 
-   │   ├── moodys_climate_api.py 
-   │   ├── ownfirm_data_formatters.py 
-   │   ├── ownfirm_models.py 
-   │   ├── ownfirm_to_moodys_connectors.py 
+   │      ├── file_handlers.py 
+   │      ├── moodys_climate_api.py 
+   │      ├── ownfirm_data_formatters.py 
+   │      ├── ownfirm_models.py 
+   │      └── ownfirm_to_moodys_connectors.py 
    ├── 02_in_tray/                            # Folder for input files 
    │   ├── template/                          # Input template files 
-   │   └── Input Template.xlsx 
+   │      └── Input Template.xlsx 
    ├── 03_out_tray/                           # Folder for generated output 
    ├── config.json                            # Configuration file for API credentials 
    └── README.md # Project documentation
